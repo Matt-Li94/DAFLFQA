@@ -1,6 +1,12 @@
 # DAFLFQA
 The repository of article “DAFLFQA：Dual Attention Fusion for Light Field Quality Assessment” 
 
+由于论文现在还处于审稿阶段，所以现在仓库只公布复现核心数据的代码并且编译出二进制文件直接运行，具体的代码细节暂时不公布，但是不影响复现论文的结果。
+
+在论文公布之后会公布全部的代码细节。
+
+代码会随着论文的公布同步更新。
+
 这个仓库包括了脚本、网络和分割好的数据集。
 分别在下面三个链接：
 
