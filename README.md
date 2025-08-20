@@ -1,36 +1,42 @@
 # DAFLFQA
 The repository of article “DAFLFQA：Dual Attention Fusion for Light Field Quality Assessment” 
 
-由于论文现在还处于审稿阶段，所以现在仓库只公布复现核心数据的代码并且编译出二进制文件直接运行。
+Since the paper is currently in the review stage, only the code for reproducing the core data and the compiled binary files for direct execution are available in the repository.
 
-具体的代码细节暂时不公布，但是不影响复现论文的结果。
+The specific code details will not be disclosed for the time being, but this will not affect the reproduction of the paper's results.
 
-在论文公布之后会公布全部的代码细节。
+All code details will be made public once the paper is published.
 
-代码会随着论文的公布同步更新。
+The code will be updated simultaneously with the publication of the paper.
 
-这个仓库包括了脚本、网络和分割好的数据集。
+This repository includes scripts, networks, and segmented datasets, which can be accessed via the following three links respectively:
 
-分别在下面三个链接：
+- Network: Nets 
+  Link: https://pan.baidu.com/s/1EGj44ylCqNWHqLiXj5_QsA?pwd=3yi2 
+  Extraction code: 3yi2
 
+- Dataset: Dataset 
+  Link: https://pan.baidu.com/s/19ST7sunaqZDd1cEaik--pg?pwd=45ra 
+  Extraction code: 45ra
 
-网络：Nets 链接: https://pan.baidu.com/s/1EGj44ylCqNWHqLiXj5_QsA?pwd=3yi2 提取码: 3yi2
+- Script: Script 
+  Link: https://pan.baidu.com/s/1tds_3v1zA3vvsHKBP9aJqQ?pwd=kezt 
+  Extraction code: kezt
 
-数据集：Dataset 链接: https://pan.baidu.com/s/19ST7sunaqZDd1cEaik--pg?pwd=45ra 提取码: 45ra
+The script contains the necessary components to reproduce the results in Table 2 of the paper. Simply run it and you will obtain the same results as those in the paper.
 
-脚本：Script 链接: https://pan.baidu.com/s/1tds_3v1zA3vvsHKBP9aJqQ?pwd=kezt 提取码: kezt
+As the binary executable files have been packaged, there is no need for additional environment configuration. You can directly download them and run the following commands:
 
-脚本里面包含了可复现论文中表2的结果 运行就可以得到和论文中一样的结果
+The script includes both binary files and newly written scripts, and you can choose either one to run.
 
-由于已经打包好了二进制可执行文件，所以不需要额外配置环境，直接下载运行以下命令就行了
+For example, to execute the binary executable file, use the following command:
 
-其中脚本里面包含了二进制文件和新编写的脚本，任选其中一个运行就行
-
-例如：对于二进制可执行文件执行如下命令：
 ```cpp
 ./core_tester your_weights_path your_dataset_path
 ```
-或者 可以运行编写的脚本
+
+Alternatively, you can run the written script.
+
 ```cpp
 python run_test.py your_weights_path your_dataset_path
 ```
