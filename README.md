@@ -1,11 +1,11 @@
 # DAFLFQA
-The repository of article “DAFLFQA：Dual Attention Fusion for Light Field Quality Assessment” 
+The repository of article “DAFLFQA: Dual Attention Fusion Network for No-Reference Light Field Image Quality Assessment” 
 
 Since the paper is currently in the review stage, only the code for reproducing the core data and the compiled binary files for direct execution are available in the repository.
 
 The specific code details will not be disclosed for the time being, but this will not affect the reproduction of the paper's results.
 
-All code details will be made public once the paper is published.
+It is worth emphasizing that although the code is published as a compiled binary file, it will not affect reproduction at all. On the contrary, due to packaging, there is no need to download additional third-party libraries, making it convenient to run. The code details will be fully disclosed after the paper is made public.
 
 The code will be updated simultaneously with the publication of the paper.
 
@@ -40,3 +40,8 @@ Alternatively, you can run the written script.
 ```cpp
 python run_test.py your_weights_path your_dataset_path
 ```
+Here, your_weights_path and your_dataset_path respectively represent the locations of the network weight file and the dataset file stored on your computer
+
+The running results with higher SROCC and PLCC and lower RMSE indicate that the network has better performance. The script will also output a KROCC metric, which is no longer in use and thus not included in the comparison.
+
+Due to the existence of the output buffer, since the script is not output in real time, please wait patiently for a while after running it. You will then obtain the same result as in Table 2 of the paper.
