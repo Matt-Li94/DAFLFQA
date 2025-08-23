@@ -44,4 +44,4 @@ Here, your_weights_path and your_dataset_path respectively represent the locatio
 
 The running results with higher SROCC and PLCC and lower RMSE indicate that the network has better performance. The script will also output a KROCC metric, which is no longer in use and thus not included in the comparison.
 
-Due to the existence of the output buffer, since the script is not output in real time, please wait patiently for a while after running it. You will then obtain the same result as in Table 2 of the paper.
+Due to the existence of the output buffer, so the script is not output in real time, please wait patiently for a while after running it. You will then obtain the same result as in Table 2 of the paper.
