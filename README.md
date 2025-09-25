@@ -1,8 +1,6 @@
 # DAFLFQA
 The repository of article “DAFLFQA: Dual Attention Fusion Network for No-Reference Light Field Image Quality Assessment” 
 
-The paper is currently under submission to the Visual Computer journal.
-
 Since the paper is currently in the review stage, only the code for reproducing the core data and the compiled binary files for direct execution are available in the repository.
 
 The specific code details will not be disclosed for the time being, but this will not affect the reproduction of the paper's results.
